@@ -41,7 +41,5 @@ while game_is_on:
     if ball.xcor() < -380:
         ball.reset_position()
         scoreboard.point_right()
-    #Move right paddle automatically
-    #paddle_right.react_to_ball(ball)
 
 screen.exitonclick()
